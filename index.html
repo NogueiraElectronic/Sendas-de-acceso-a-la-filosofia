@@ -602,4 +602,428 @@
 
                 <div class="text-fragment">
                     <div class="author">Fragmento de Descartes - Discurso del Método</div>
-                    "Pienso, luego existo. Esta verdad: pienso, luego soy, era tan
+                    "Pienso, luego existo. Esta verdad: pienso, luego soy, era tan firme y tan cierta que las más extravagantes suposiciones de los escépticos no eran capaces de hacerla tambalear..."
+                </div>
+            </div>
+
+            <!-- BLOQUE IV DETALLE -->
+            <div id="block-4" class="content-detail">
+                <button class="back-btn" onclick="showBlocksOverview()">← Volver a Bloques</button>
+                
+                <div class="block-header" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                    <h2>🌟 Bloque IV: Filosofía Contemporánea</h2>
+                    <p>Siglos XIX-XXI: Las filosofías de la crisis y la modernidad</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🏭 Filosofía del s. XIX</h4>
+                            <p><strong>Representantes:</strong> Hegel, Marx, Kierkegaard, Nietzsche</p>
+                            <p><strong>Temas:</strong> Dialéctica, materialismo histórico, existencia individual</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>💭 Filosofía del s. XX</h4>
+                            <p><strong>Corrientes:</strong> Existencialismo, Fenomenología, Filosofía Analítica</p>
+                            <p><strong>Representantes:</strong> Husserl, Heidegger, Sartre, Wittgenstein</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🌐 Filosofía del s. XXI</h4>
+                            <p><strong>Temas:</strong> Posmodernismo, bioética, filosofía de la tecnología</p>
+                            <p><strong>Desafíos:</strong> Inteligencia artificial, crisis ecológica, globalización</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="philosopher-grid">
+                    <div class="philosopher-card">
+                        <h4>⚡ Friedrich Nietzsche</h4>
+                        <div class="dates">1844-1900</div>
+                        <p>"Dios ha muerto". Superhombre, voluntad de poder, transvaloración de valores.</p>
+                    </div>
+                    
+                    <div class="philosopher-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <h4>🚪 Jean-Paul Sartre</h4>
+                        <div class="dates">1905-1980</div>
+                        <p>"La existencia precede a la esencia". Libertad radical, angustia, compromiso.</p>
+                    </div>
+                </div>
+
+                <div class="text-fragment">
+                    <div class="author">Fragmento de Sartre - El existencialismo es un humanismo</div>
+                    "El hombre está condenado a ser libre; porque una vez arrojado al mundo, es responsable de todo lo que hace..."
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DE EXAMEN -->
+        <div id="exam-section" class="content-area" style="display: none;">
+            <h2 class="section-title">🎯 Formato del Examen Real UNED</h2>
+            
+            <div class="exam-format">
+                <h4>📋 Estructura Oficial del Examen</h4>
+                <ul style="margin: 15px 0; padding-left: 20px; line-height: 1.8;">
+                    <li><strong>⏱️ Duración:</strong> 60 minutos</li>
+                    <li><strong>📚 Material:</strong> No se permite ningún material</li>
+                    <li><strong>📍 Lugar:</strong> Centro Asociado UNED donde estés matriculado</li>
+                    <li><strong>🎯 Estructura:</strong> Dos partes obligatorias</li>
+                </ul>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px;">
+                    <h4>📝 PARTE A: Desarrollo de Tema</h4>
+                    <ul style="margin: 15px 0; padding-left: 20px;">
+                        <li>Elegir <strong>1 tema</strong> entre 2 propuestos</li>
+                        <li>Extraído de los contenidos del manual</li>
+                        <li>Desarrollo completo y estructurado</li>
+                        <li>Demostrar conocimiento profundo</li>
+                    </ul>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 25px; border-radius: 15px;">
+                    <h4>📜 PARTE B: Comentario de Texto</h4>
+                    <ul style="margin: 15px 0; padding-left: 20px;">
+                        <li>Fragmento del manual oficial</li>
+                        <li>Análisis del contenido</li>
+                        <li>Contextualización histórica</li>
+                        <li>Relación con otros autores</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="quiz-container">
+                <h3 style="text-align: center; margin-bottom: 25px;">🎯 Simulacro de Examen</h3>
+                
+                <div class="question">
+                    <h4>PARTE A - Elige UN tema para desarrollar:</h4>
+                    <div style="margin: 20px 0;">
+                        <div class="option" onclick="selectTopic(this, 1)">
+                            <strong>Tema 1:</strong> "El paso del mito al logos en la filosofía presocrática: características y principales representantes"
+                        </div>
+                        <div class="option" onclick="selectTopic(this, 2)">
+                            <strong>Tema 2:</strong> "La síntesis tomista entre fe y razón: contexto histórico y principales aportaciones"
+                        </div>
+                    </div>
+                    <div id="topic-development" style="display: none; background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 20px;">
+                        <h5>📝 Esquema para desarrollar:</h5>
+                        <div id="topic-outline"></div>
+                    </div>
+                </div>
+
+                <div class="question" style="margin-top: 30px;">
+                    <h4>PARTE B - Comenta el siguiente fragmento:</h4>
+                    <div class="text-fragment" style="background: rgba(255,255,255,0.1); color: white;">
+                        <div class="author">Platón - La República, Libro VII</div>
+                        "Después de esto —proseguí—, compara nuestra naturaleza respecto de su educación y de su falta de educación con una experiencia como ésta. Represéntate hombres en una morada subterránea en forma de caverna..."
+                    </div>
+                    <div style="margin: 20px 0;">
+                        <p><strong>Preguntas para el comentario:</strong></p>
+                        <ol style="margin: 10px 0; padding-left: 20px;">
+                            <li>Explica el significado de la alegoría de la caverna</li>
+                            <li>Relaciona este texto con la teoría de las Ideas de Platón</li>
+                            <li>Compara la concepción platónica del conocimiento con la aristotélica</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DE COMENTARIOS -->
+        <div id="texts-section" class="content-area" style="display: none;">
+            <h2 class="section-title">📜 Guía de Comentarios de Texto</h2>
+            
+            <div style="background: #f8f9ff; padding: 25px; border-radius: 15px; margin: 25px 0;">
+                <h3 style="color: #667eea; margin-bottom: 20px;">📋 Metodología del Comentario</h3>
+                <ol style="padding-left: 20px; line-height: 1.8;">
+                    <li><strong>Lectura comprensiva:</strong> Entender el sentido general del texto</li>
+                    <li><strong>Identificación del autor y obra:</strong> Contextualización histórica</li>
+                    <li><strong>Análisis del contenido:</strong> Ideas principales y secundarias</li>
+                    <li><strong>Explicación de conceptos:</strong> Términos filosóficos clave</li>
+                    <li><strong>Relación con otros autores:</strong> Comparaciones y contrastes</li>
+                    <li><strong>Valoración crítica:</strong> Importancia e influencia</li>
+                </ol>
+            </div>
+
+            <div class="text-fragment">
+                <div class="author">Ejemplo: Descartes - Discurso del Método</div>
+                "Pero advertí luego que, queriendo yo pensar de esa suerte que todo es falso, era necesario que yo, que lo pensaba, fuese alguna cosa; y observando que esta verdad: «pienso, luego soy», era tan firme y segura..."
+                
+                <div style="margin-top: 20px; background: rgba(103, 126, 234, 0.1); padding: 15px; border-radius: 8px;">
+                    <h5 style="color: #667eea;">💡 Análisis del fragmento:</h5>
+                    <p><strong>Contexto:</strong> S. XVII, racionalismo, búsqueda de certeza</p>
+                    <p><strong>Método:</strong> Duda metódica como punto de partida</p>
+                    <p><strong>Concepto clave:</strong> Cogito ergo sum como primera certeza</p>
+                    <p><strong>Relación:</strong> Contrasta con empirismo de Locke y Hume</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DE CALENDARIO -->
+        <div id="schedule-section" class="content-area" style="display: none;">
+            <h2 class="section-title">📅 Calendario y Planificación</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
+                <div style="background: linear-gradient(135deg, #FF9800 0%, #FFC107 100%); color: white; padding: 25px; border-radius: 15px;">
+                    <h4>❄️ Convocatoria de Febrero</h4>
+                    <p><strong>📅 Fechas:</strong> 15-28 de Febrero</p>
+                    <p><strong>📚 Contenido:</strong> Solo Bloques I y II</p>
+                    <p><strong>✅ Voluntario:</strong> Si apruebas, solo Bloques III y IV en junio</p>
+                    <p><strong>🎯 Estrategia:</strong> Filosofía Antigua + Medieval</p>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #4CAF50 0%, #8BC34A 100%); color: white; padding: 25px; border-radius: 15px;">
+                    <h4>☀️ Convocatoria de Junio</h4>
+                    <p><strong>📅 Fechas:</strong> 1-15 de Junio</p>
+                    <p><strong>📚 Opción A:</strong> Solo Bloques III y IV (si aprobaste febrero)</p>
+                    <p><strong>📚 Opción B:</strong> Examen completo (4 bloques)</p>
+                    <p><strong>🎯 Estrategia:</strong> Filosofía Moderna + Contemporánea</p>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 25px; border-radius: 15px;">
+                    <h4>🍂 Convocatoria de Septiembre</h4>
+                    <p><strong>📅 Fechas:</strong> 1-15 de Septiembre</p>
+                    <p><strong>📚 Contenido:</strong> Examen completo (4 bloques)</p>
+                    <p><strong>🎯 Estrategia:</strong> Repaso intensivo del verano</p>
+                    <p><strong>⚠️ Última oportunidad</strong> del curso académico</p>
+                </div>
+            </div>
+
+            <div style="background: white; padding: 25px; border-radius: 15px; margin: 25px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                <h3 style="color: #667eea; margin-bottom: 20px;">📚 Plan de Estudio Recomendado</h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                    <div>
+                        <h4 style="color: #FF9800; margin-bottom: 10px;">🗓️ Estrategia Febrero</h4>
+                        <ul style="padding-left: 20px; line-height: 1.6;">
+                            <li><strong>Octubre-Noviembre:</strong> Bloque I (Filosofía Antigua)</li>
+                            <li><strong>Diciembre-Enero:</strong> Bloque II (Filosofía Medieval)</li>
+                            <li><strong>Enero-Febrero:</strong> Repaso y práctica de comentarios</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 style="color: #4CAF50; margin-bottom: 10px;">🗓️ Estrategia Junio</h4>
+                        <ul style="padding-left: 20px; line-height: 1.6;">
+                            <li><strong>Marzo-Abril:</strong> Bloque III (Filosofía Moderna)</li>
+                            <li><strong>Mayo:</strong> Bloque IV (Filosofía Contemporánea)</li>
+                            <li><strong>Junio:</strong> Simulacros y repaso final</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ==================== FUNCIONES DE NAVEGACIÓN ====================
+        
+        function showSection(section) {
+            // Ocultar todas las secciones
+            const sections = ['blocks', 'exam', 'texts', 'schedule'];
+            sections.forEach(s => {
+                const element = document.getElementById(s + '-section');
+                if (element) {
+                    element.style.display = 'none';
+                }
+            });
+            
+            // Mostrar la sección seleccionada
+            const targetSection = document.getElementById(section + '-section');
+            if (targetSection) {
+                targetSection.style.display = 'block';
+            }
+            
+            // Actualizar botones de navegación
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        function showBlockDetail(blockNum) {
+            // Ocultar vista general de bloques
+            const overview = document.getElementById('blocks-overview');
+            if (overview) {
+                overview.style.display = 'none';
+            }
+            
+            // Ocultar todos los detalles de bloques
+            for (let i = 1; i <= 4; i++) {
+                const blockDetail = document.getElementById('block-' + i);
+                if (blockDetail) {
+                    blockDetail.style.display = 'none';
+                    blockDetail.classList.remove('active');
+                }
+            }
+            
+            // Mostrar el bloque seleccionado
+            const targetBlock = document.getElementById('block-' + blockNum);
+            if (targetBlock) {
+                targetBlock.style.display = 'block';
+                targetBlock.classList.add('active');
+            }
+        }
+
+        function showBlocksOverview() {
+            // Ocultar todos los detalles de bloques
+            for (let i = 1; i <= 4; i++) {
+                const blockDetail = document.getElementById('block-' + i);
+                if (blockDetail) {
+                    blockDetail.style.display = 'none';
+                    blockDetail.classList.remove('active');
+                }
+            }
+            
+            // Mostrar vista general
+            const overview = document.getElementById('blocks-overview');
+            if (overview) {
+                overview.style.display = 'block';
+            }
+        }
+
+        // ==================== FUNCIONES DE EXAMEN ====================
+        
+        function selectTopic(element, topicNumber) {
+            // Marcar opción seleccionada
+            const allOptions = element.parentNode.querySelectorAll('.option');
+            allOptions.forEach(opt => opt.classList.remove('correct'));
+            element.classList.add('correct');
+            
+            // Mostrar esquema de desarrollo
+            const developmentDiv = document.getElementById('topic-development');
+            const outlineDiv = document.getElementById('topic-outline');
+            
+            let outline = '';
+            if (topicNumber === 1) {
+                outline = `
+                    <ol style="padding-left: 20px; line-height: 1.8;">
+                        <li><strong>Introducción:</strong> Contexto histórico (s. VI a.C., Grecia)</li>
+                        <li><strong>Del mito al logos:</strong> Cambio fundamental de perspectiva</li>
+                        <li><strong>Características:</strong> Búsqueda del arjé, explicación racional</li>
+                        <li><strong>Representantes principales:</strong>
+                            <ul style="margin-top: 10px;">
+                                <li>Tales de Mileto: El agua como principio</li>
+                                <li>Anaximandro: El ápeiron</li>
+                                <li>Heráclito: El logos y el fuego</li>
+                                <li>Parménides: El ser inmutable</li>
+                            </ul>
+                        </li>
+                        <li><strong>Conclusión:</strong> Legado para la filosofía posterior</li>
+                    </ol>
+                `;
+            } else {
+                outline = `
+                    <ol style="padding-left: 20px; line-height: 1.8;">
+                        <li><strong>Introducción:</strong> Contexto medieval (s. XIII)</li>
+                        <li><strong>Problema fe-razón:</strong> Antecedentes patrísticos</li>
+                        <li><strong>La síntesis tomista:</strong>
+                            <ul style="margin-top: 10px;">
+                                <li>Aristotelismo cristianizado</li>
+                                <li>Las cinco vías para demostrar la existencia de Dios</li>
+                                <li>Teoría del conocimiento</li>
+                            </ul>
+                        </li>
+                        <li><strong>Contexto histórico:</strong> Escolástica, universidades</li>
+                        <li><strong>Influencia posterior:</strong> Neotomismo</li>
+                    </ol>
+                `;
+            }
+            
+            outlineDiv.innerHTML = outline;
+            developmentDiv.style.display = 'block';
+        }
+
+        // ==================== INICIALIZACIÓN ====================
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('📚 Sendas de Acceso a la Filosofía - UNED cargado correctamente');
+            
+            // Verificar que todas las secciones existen
+            const sections = ['blocks', 'exam', 'texts', 'schedule'];
+            sections.forEach(section => {
+                const element = document.getElementById(section + '-section');
+                if (!element) {
+                    console.warn(`⚠️ Sección ${section} no encontrada`);
+                }
+            });
+            
+            // Verificar que todos los bloques existen
+            for (let i = 1; i <= 4; i++) {
+                const block = document.getElementById('block-' + i);
+                if (!block) {
+                    console.warn(`⚠️ Bloque ${i} no encontrado`);
+                }
+            }
+        });
+
+        // ==================== FUNCIONES AUXILIARES ====================
+        
+        // Función para mostrar información adicional
+        function showInfo(message) {
+            alert('ℹ️ ' + message);
+        }
+
+        // Función para validar navegación
+        function validateNavigation() {
+            const activeSection = document.querySelector('.content-area:not([style*="display: none"])');
+            if (activeSection) {
+                console.log('✅ Sección activa:', activeSection.id);
+                return true;
+            } else {
+                console.warn('⚠️ No hay sección activa visible');
+                return false;
+            }
+        }
+
+        // Función de ayuda
+        function showHelp() {
+            alert(`📚 AYUDA - SENDAS DE ACCESO A LA FILOSOFÍA
+
+🎯 NAVEGACIÓN:
+• Los 4 Bloques: Contenido del libro oficial
+• Examen Real: Formato de 60 minutos
+• Comentarios: Guía de análisis de textos
+• Calendario: Fechas y planificación
+
+📖 CÓMO ESTUDIAR:
+• Febrero: Solo Bloques I y II (Antigua + Medieval)
+• Junio: Bloques III y IV (Moderna + Contemporánea)
+• Practica comentarios de texto regularmente
+• Usa los esquemas para estructurar temas
+
+🎯 FORMATO EXAMEN:
+• 60 minutos sin material
+• Parte A: 1 tema a elegir entre 2
+• Parte B: Comentario de fragmento
+
+¡Éxito en tu prueba de acceso! 🌟`);
+        }
+
+        // Event listeners adicionales
+        window.addEventListener('load', function() {
+            console.log('🚀 Aplicación completamente cargada');
+            
+            // Mostrar mensaje de bienvenida
+            setTimeout(() => {
+                if (confirm('👋 ¡Bienvenido/a a Sendas de Acceso a la Filosofía!\n\n¿Te gustaría ver una breve introducción sobre cómo usar la aplicación?')) {
+                    showHelp();
+                }
+            }, 2000);
+        });
+
+        // Atajo de teclado para ayuda
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'F1' || (e.ctrlKey && e.key === 'h')) {
+                e.preventDefault();
+                showHelp();
+            }
+        });
+
+    </script>
+</body>
+</html>
