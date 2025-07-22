@@ -384,158 +384,271 @@
                     <p>El nacimiento del pensamiento racional en Grecia (s. VI a.C. - s. VI d.C.)</p>
                 </div>
 
-                <!-- Navegación interna del bloque -->
-                <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
-                    <button class="nav-btn" onclick="showSubTopic('1-presocraticos')" style="font-size: 0.9rem; padding: 10px 20px;">📍 Presocráticos</button>
-                    <button class="nav-btn" onclick="showSubTopic('1-socrates')" style="font-size: 0.9rem; padding: 10px 20px;">🤔 Sócrates</button>
-                    <button class="nav-btn" onclick="showSubTopic('1-platon')" style="font-size: 0.9rem; padding: 10px 20px;">🏛️ Platón</button>
-                    <button class="nav-btn" onclick="showSubTopic('1-aristoteles')" style="font-size: 0.9rem; padding: 10px 20px;">🦉 Aristóteles</button>
-                    <button class="nav-btn" onclick="showSubTopic('1-helenisticos')" style="font-size: 0.9rem; padding: 10px 20px;">🌿 Helenísticos</button>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>📍 Filosofía Presocrática (s. VI-V a.C.)</h4>
+                            <p><strong>El paso del mito al logos:</strong> Los primeros filósofos buscan explicaciones racionales de la naturaleza.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Tales de Mileto:</strong> "Todo es agua" - Primer arjé</li>
+                                <li><strong>Heráclito:</strong> "Todo fluye" - El logos universal</li>
+                                <li><strong>Parménides:</strong> "El ser es" - Inmutabilidad del ser</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🤔 Sócrates (470-399 a.C.)</h4>
+                            <p><strong>Giro antropológico:</strong> De la naturaleza al ser humano.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Método:</strong> Ironía + Mayéutica</li>
+                                <li><strong>Paradojas:</strong> "Solo sé que no sé nada", Virtud = Conocimiento</li>
+                                <li><strong>Ética:</strong> "Conócete a ti mismo"</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🏛️ Platón (428-348 a.C.)</h4>
+                            <p><strong>Teoría de las Ideas:</strong> Dualismo ontológico mundo sensible/inteligible.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Alegoría de la caverna:</strong> Proceso de conocimiento</li>
+                                <li><strong>República:</strong> Estado ideal, justicia</li>
+                                <li><strong>Idea del Bien:</strong> Principio supremo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🦉 Aristóteles (384-322 a.C.)</h4>
+                            <p><strong>Realismo filosófico:</strong> Crítica a las Ideas platónicas.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Lógica:</strong> Silogismo, organon</li>
+                                <li><strong>Ética:</strong> Término medio, virtudes</li>
+                                <li><strong>Política:</strong> "El hombre es un animal político"</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- SUBTEMA: PRESOCRÁTICOS -->
-                <div id="subtopic-1-presocraticos" class="subtopic-content">
-                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; margin: 20px 0;">
-                        <h3>📍 Los Filósofos Presocráticos (s. VI-V a.C.)</h3>
-                        <p style="opacity: 0.9;">El paso del mito al logos: la búsqueda racional del principio fundamental</p>
-                    </div>
+                <div class="text-fragment">
+                    <div class="author">Fragmento clave - Platón, República VII</div>
+                    "Represéntate hombres en una morada subterránea en forma de caverna... y que desde niños tienen las piernas y el cuello encadenados..."
+                </div>
 
-                    <div style="background: #f8f9ff; padding: 25px; border-radius: 15px; margin: 20px 0;">
-                        <h4 style="color: #667eea; margin-bottom: 15px;">🔍 Contexto Histórico</h4>
-                        <p><strong>¿Por qué surgen en Grecia?</strong></p>
-                        <ul style="margin: 15px 0; padding-left: 25px; line-height: 1.8;">
-                            <li><strong>Geográfico:</strong> Contacto con diversas culturas (comercio marítimo)</li>
-                            <li><strong>Político:</strong> Polis independientes, libertad de pensamiento</li>
-                            <li><strong>Económico:</strong> Prosperidad que permite el ocio filosófico</li>
-                            <li><strong>Cultural:</strong> Crisis de las explicaciones míticas tradicionales</li>
-                        </ul>
-                        
-                        <h4 style="color: #667eea; margin: 20px 0 15px 0;">🎯 El Gran Cambio: Mito → Logos</h4>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 15px 0;">
-                            <div style="background: #ffebee; padding: 15px; border-radius: 10px;">
-                                <h5 style="color: #f44336;">❌ MITO (Antes)</h5>
-                                <ul style="padding-left: 20px; margin-top: 10px;">
-                                    <li>Explicaciones sobrenaturales</li>
-                                    <li>Dioses antropomórficos</li>
-                                    <li>Relatos fantásticos</li>
-                                    <li>Tradición oral</li>
-                                </ul>
-                            </div>
-                            <div style="background: #e8f5e8; padding: 15px; border-radius: 10px;">
-                                <h5 style="color: #4CAF50;">✅ LOGOS (Después)</h5>
-                                <ul style="padding-left: 20px; margin-top: 10px;">
-                                    <li>Explicaciones racionales</li>
-                                    <li>Causas naturales</li>
-                                    <li>Argumentación lógica</li>
-                                    <li>Pensamiento crítico</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div style="background: #f8f9ff; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                    <h4 style="color: #667eea;">🎯 Para el Examen:</h4>
+                    <p><strong>Tema típico:</strong> "El paso del mito al logos en la filosofía presocrática"</p>
+                    <p><strong>Esquema:</strong> 1) Contexto Grecia s.VI, 2) Crisis mito, 3) Arjé y logos, 4) Principales pensadores, 5) Legado</p>
+                </div>
+            </div>
 
-                    <h4 style="color: #667eea; margin: 25px 0 15px 0;">👥 Los Grandes Presocráticos</h4>
+            <!-- BLOQUE II DETALLE -->
+            <div id="block-2" class="content-detail">
+                <button class="back-btn" onclick="showBlocksOverview()">← Volver a Bloques</button>
+                
+                <div class="block-header" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <h2>⛪ Bloque II: Filosofía Medieval</h2>
+                    <p>La síntesis entre fe y razón (s. III - s. XV)</p>
+                </div>
 
-                    <!-- TALES DE MILETO -->
-                    <div class="philosopher-card" style="margin: 20px 0;">
-                        <div style="display: flex; align-items: center; gap: 20px;">
-                            <div style="font-size: 3rem;">💧</div>
-                            <div style="flex: 1;">
-                                <h4>Tales de Mileto (c. 624-546 a.C.)</h4>
-                                <div class="dates">"El primer filósofo"</div>
-                                <p><strong>Tesis fundamental:</strong> "Todo procede del agua"</p>
-                            </div>
-                        </div>
-                        <div style="margin-top: 20px; background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px;">
-                            <h5>🔍 ¿Por qué el agua?</h5>
-                            <ul style="padding-left: 20px; margin-top: 10px;">
-                                <li><strong>Observación empírica:</strong> La vida depende del agua</li>
-                                <li><strong>Estados de la materia:</strong> Sólido (hielo), líquido, gaseoso (vapor)</li>
-                                <li><strong>Ciclo natural:</strong> Lluvia, ríos, evaporación</li>
-                                <li><strong>Fertilidad:</strong> Las tierras húmedas son más fértiles</li>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>✝️ Patrística: San Agustín (354-430)</h4>
+                            <p><strong>Síntesis platónico-cristiana:</strong> Fe y razón se complementan.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Teoría de la iluminación:</strong> Dios ilumina el entendimiento</li>
+                                <li><strong>Problema del mal:</strong> Ausencia de bien, no creación divina</li>
+                                <li><strong>Ciudad de Dios:</strong> Historia de la salvación</li>
                             </ul>
-                            <p style="margin-top: 10px;"><strong>💡 Importancia:</strong> Primera explicación racional de la naturaleza sin recurrir a dioses.</p>
                         </div>
                     </div>
-
-                    <!-- ANAXIMANDRO -->
-                    <div class="philosopher-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); margin: 20px 0;">
-                        <div style="display: flex; align-items: center; gap: 20px;">
-                            <div style="font-size: 3rem;">🌌</div>
-                            <div style="flex: 1;">
-                                <h4>Anaximandro (c. 610-545 a.C.)</h4>
-                                <div class="dates">Discípulo de Tales</div>
-                                <p><strong>Tesis fundamental:</strong> El <em>ápeiron</em> (lo indeterminado)</p>
-                            </div>
-                        </div>
-                        <div style="margin-top: 20px; background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px;">
-                            <h5>🌀 El Ápeiron</h5>
-                            <ul style="padding-left: 20px; margin-top: 10px;">
-                                <li><strong>Indeterminado:</strong> Sin límites, sin forma definida</li>
-                                <li><strong>Infinito:</strong> Espacial y temporalmente eterno</li>
-                                <li><strong>Principio:</strong> De él surgen todas las cosas</li>
-                                <li><strong>Justicia cósmica:</strong> Las cosas vuelven a él para compensar</li>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>👑 Escolástica: Santo Tomás (1225-1274)</h4>
+                            <p><strong>Síntesis aristotélico-cristiana:</strong> La razón puede demostrar verdades de fe.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Las 5 vías:</strong> Demostraciones racionales de Dios</li>
+                                <li><strong>Relación fe-razón:</strong> Distintas pero no opuestas</li>
+                                <li><strong>Suma Teológica:</strong> Síntesis del saber medieval</li>
                             </ul>
-                            <div class="text-fragment" style="background: rgba(255,255,255,0.1); color: white; margin-top: 15px;">
-                                <div class="author">Fragmento de Anaximandro</div>
-                                "De donde las cosas tienen su origen, hacia allí se encaminan también en su destrucción, según la necesidad; pues se dan mutuamente justa retribución por su injusticia..."
-                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- HERÁCLITO -->
-                    <div class="philosopher-card" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); margin: 20px 0;">
-                        <div style="display: flex; align-items: center; gap: 20px;">
-                            <div style="font-size: 3rem;">🔥</div>
-                            <div style="flex: 1;">
-                                <h4>Heráclito de Éfeso (c. 535-475 a.C.)</h4>
-                                <div class="dates">"El Oscuro"</div>
-                                <p><strong>Tesis fundamental:</strong> "Todo fluye" (Panta rei)</p>
-                            </div>
-                        </div>
-                        <div style="margin-top: 20px; background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px;">
-                            <h5>⚡ Conceptos Clave</h5>
-                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 15px 0;">
-                                <div>
-                                    <strong>🌊 DEVENIR:</strong><br>
-                                    • Todo está en constante cambio<br>
-                                    • "No puedes bañarte dos veces en el mismo río"<br>
-                                    • La realidad es proceso, no sustancia
-                                </div>
-                                <div>
-                                    <strong>⚖️ LOGOS:</strong><br>
-                                    • Razón universal que gobierna<br>
-                                    • Ley cósmica del cambio<br>
-                                    • Armonía en la contradicción
-                                </div>
-                                <div>
-                                    <strong>⚔️ GUERRA:</strong><br>
-                                    • "La guerra es padre de todas las cosas"<br>
-                                    • Conflicto como motor del cambio<br>
-                                    • Unidad de los opuestos
-                                </div>
-                                <div>
-                                    <strong>🔥 FUEGO:</strong><br>
-                                    • Elemento más dinámico<br>
-                                    • Símbolo del cambio eterno<br>
-                                    • Principio material del cosmos
-                                </div>
-                            </div>
-                            
-                            <div class="text-fragment" style="background: rgba(255,255,255,0.1); color: white; margin-top: 15px;">
-                                <div class="author">Fragmentos Famosos de Heráclito</div>
-                                <p>"El camino hacia arriba y hacia abajo son uno y el mismo"</p>
-                                <p>"La armonía oculta es más fuerte que la aparente"</p>
-                                <p>"Los hombres no comprenden cómo lo que está en desacuerdo consigo mismo concuerda consigo mismo"</p>
-                            </div>
+                <div class="philosopher-grid">
+                    <div class="philosopher-card">
+                        <h4>📖 San Agustín de Hipona</h4>
+                        <div class="dates">354-430 d.C.</div>
+                        <p>"Si me equivoco, existo" (precedente del cogito). Confesiones, La Ciudad de Dios.</p>
+                    </div>
+                    
+                    <div class="philosopher-card" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <h4>👑 Santo Tomás de Aquino</h4>
+                        <div class="dates">1225-1274</div>
+                        <p>Doctor Angélico. Las cinco vías tomistas. Síntesis aristotélico-cristiana definitiva.</p>
+                    </div>
+                </div>
+
+                <div class="text-fragment">
+                    <div class="author">Las 5 Vías de Santo Tomás (Suma Teológica I, q.2, a.3)</div>
+                    "1ª Vía del movimiento, 2ª Vía de la causa eficiente, 3ª Vía de lo posible y necesario, 4ª Vía de los grados de perfección, 5ª Vía del gobierno del mundo"
+                </div>
+
+                <div style="background: #f0f8ff; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                    <h4 style="color: #4facfe;">🎯 Para el Examen:</h4>
+                    <p><strong>Tema típico:</strong> "La relación entre fe y razón en la filosofía medieval"</p>
+                    <p><strong>Esquema:</strong> 1) Contexto cristianismo, 2) Patrística-Agustín, 3) Escolástica-Tomás, 4) Síntesis fe-razón, 5) Legado</p>
+                </div>
+            </div>
+
+            <!-- BLOQUE III DETALLE -->
+            <div id="block-3" class="content-detail">
+                <button class="back-btn" onclick="showBlocksOverview()">← Volver a Bloques</button>
+                
+                <div class="block-header" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                    <h2>🔬 Bloque III: Filosofía Moderna</h2>
+                    <p>Del Renacimiento a la Ilustración (s. XV - s. XVIII)</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🧠 Racionalismo: Descartes (1596-1650)</h4>
+                            <p><strong>"Cogito ergo sum":</strong> Primera certeza del método de la duda.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Duda metódica:</strong> Dudar de todo hasta encontrar lo indubitable</li>
+                                <li><strong>Dualismo sustancial:</strong> Res extensa (cuerpo) / Res cogitans (alma)</li>
+                                <li><strong>Ideas innatas:</strong> Dios, alma, infinito</li>
+                            </ul>
                         </div>
                     </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>👁️ Empirismo: Locke, Hume</h4>
+                            <p><strong>Tabula rasa:</strong> Todo conocimiento viene de la experiencia.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Locke:</strong> No hay ideas innatas, origen empírico del conocimiento</li>
+                                <li><strong>Hume:</strong> Escepticismo sobre causalidad e inducción</li>
+                                <li><strong>Problema de la inducción:</strong> No hay justificación lógica</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>⚖️ Criticismo: Kant (1724-1804)</h4>
+                            <p><strong>Síntesis crítica:</strong> Combina razón y experiencia.</p>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Revolución copernicana:</strong> Los objetos se conforman al conocimiento</li>
+                                <li><strong>Juicios sintéticos a priori:</strong> Amplían conocimiento y son universales</li>
+                                <li><strong>Límites de la razón:</strong> Solo fenómenos, no noúmenos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- PARMÉNIDES -->
-                    <div class="philosopher-card" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); margin: 20px 0;">
-                        <div style="display: flex; align-items: center; gap: 20px;">
-                            <div style="font-size: 3rem;">🔮</div>
-                            <div style="flex: 1;">
-                                <h4>Parménides de Elea (c. 515-450 a.C.)</h4>
+                <div class="philosopher-grid">
+                    <div class="philosopher-card">
+                        <h4>🤔 René Descartes</h4>
+                        <div class="dates">1596-1650</div>
+                        <p>Padre de la filosofía moderna. Método, Meditaciones. "Pienso, luego existo".</p>
+                    </div>
+                    
+                    <div class="philosopher-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <h4>👑 Immanuel Kant</h4>
+                        <div class="dates">1724-1804</div>
+                        <p>Críticas de la Razón. Revolución copernicana. Imperativo categórico.</p>
+                    </div>
+                </div>
+
+                <div class="text-fragment">
+                    <div class="author">Descartes - Discurso del Método</div>
+                    "Pienso, luego existo. Esta verdad era tan firme y segura que no podían quebrantarla ni las más extravagantes suposiciones de los escépticos..."
+                </div>
+
+                <div style="background: #fff3e0; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                    <h4 style="color: #fa709a;">🎯 Para el Examen:</h4>
+                    <p><strong>Tema típico:</strong> "El problema del conocimiento en la filosofía moderna: racionalismo vs empirismo"</p>
+                    <p><strong>Esquema:</strong> 1) Crisis medieval, 2) Racionalismo-Descartes, 3) Empirismo-Locke/Hume, 4) Síntesis kantiana, 5) Legado</p>
+                </div>
+            </div>
+
+            <!-- BLOQUE IV DETALLE -->
+            <div id="block-4" class="content-detail">
+                <button class="back-btn" onclick="showBlocksOverview()">← Volver a Bloques</button>
+                
+                <div class="block-header" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                    <h2>🌟 Bloque IV: Filosofía Contemporánea</h2>
+                    <p>Siglos XIX-XXI: Crisis de la modernidad y nuevos paradigmas</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>⚡ S. XIX: Crítica a la modernidad</h4>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Hegel:</strong> Dialéctica, historia como progreso del Espíritu</li>
+                                <li><strong>Marx:</strong> Materialismo histórico, alienación</li>
+                                <li><strong>Nietzsche:</strong> "Dios ha muerto", voluntad de poder</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>💭 S. XX: Nuevos paradigmas</h4>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Husserl:</strong> Fenomenología, "a las cosas mismas"</li>
+                                <li><strong>Heidegger:</strong> Ser y tiempo, analítica existencial</li>
+                                <li><strong>Sartre:</strong> Existencialismo, libertad radical</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>🌐 S. XXI: Filosofía actual</h4>
+                            <ul style="margin: 10px 0; padding-left: 20px;">
+                                <li><strong>Posmodernismo:</strong> Crítica a los metarrelatos</li>
+                                <li><strong>Bioética:</strong> Nuevos dilemas morales</li>
+                                <li><strong>Filosofía de la tecnología:</strong> IA, cyborgs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="philosopher-grid">
+                    <div class="philosopher-card">
+                        <h4>⚡ Friedrich Nietzsche</h4>
+                        <div class="dates">1844-1900</div>
+                        <p>"Dios ha muerto". Superhombre, voluntad de poder, genealogía de la moral.</p>
+                    </div>
+                    
+                    <div class="philosopher-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <h4>🚪 Jean-Paul Sartre</h4>
+                        <div class="dates">1905-1980</div>
+                        <p>"La existencia precede a la esencia". Libertad, angustia, compromiso.</p>
+                    </div>
+                </div>
+
+                <div class="text-fragment">
+                    <div class="author">Sartre - El existencialismo es un humanismo</div>
+                    "El hombre está condenado a ser libre; porque una vez arrojado al mundo, es responsable de todo lo que hace..."
+                </div>
+
+                <div style="background: #f0f0f8; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                    <h4 style="color: #a8edea;">🎯 Para el Examen:</h4>
+                    <p><strong>Tema típico:</strong> "El existencialismo: características principales y representantes"</p>
+                    <p><strong>Esquema:</strong> 1) Crisis s.XX, 2) Antecedentes Kierkegaard/Nietzsche, 3) Heidegger-Sartre, 4) Temas clave, 5) Influencia</p>
+                </div>
+            </div>>Parménides de Elea (c. 515-450 a.C.)</h4>
                                 <div class="dates">Fundador de la Escuela Eleática</div>
                                 <p><strong>Tesis fundamental:</strong> "El ser es, el no-ser no es"</p>
                             </div>
@@ -1825,6 +1938,47 @@
             }
         }
 
+        function showBlockDetail(blockNum) {
+            // Ocultar vista general de bloques
+            const overview = document.getElementById('blocks-overview');
+            if (overview) {
+                overview.style.display = 'none';
+            }
+            
+            // Ocultar todos los detalles de bloques
+            for (let i = 1; i <= 4; i++) {
+                const blockDetail = document.getElementById('block-' + i);
+                if (blockDetail) {
+                    blockDetail.style.display = 'none';
+                    blockDetail.classList.remove('active');
+                }
+            }
+            
+            // Mostrar el bloque seleccionado
+            const targetBlock = document.getElementById('block-' + blockNum);
+            if (targetBlock) {
+                targetBlock.style.display = 'block';
+                targetBlock.classList.add('active');
+            }
+        }
+
+        function showBlocksOverview() {
+            // Ocultar todos los detalles de bloques
+            for (let i = 1; i <= 4; i++) {
+                const blockDetail = document.getElementById('block-' + i);
+                if (blockDetail) {
+                    blockDetail.style.display = 'none';
+                    blockDetail.classList.remove('active');
+                }
+            }
+            
+            // Mostrar vista general
+            const overview = document.getElementById('blocks-overview');
+            if (overview) {
+                overview.style.display = 'block';
+            }
+        }
+
         // ==================== CRONÓMETRO CUENTA ATRÁS ====================
         
         function startCountdown() {
@@ -1886,6 +2040,162 @@
             updateCountdown();
             setInterval(updateCountdown, 1000);
         }
+
+        // ==================== FUNCIONES DE EXAMEN ====================
+        
+        function selectTopic(element, topicNumber) {
+            // Marcar opción seleccionada
+            const allOptions = element.parentNode.querySelectorAll('.option');
+            allOptions.forEach(opt => opt.classList.remove('correct'));
+            element.classList.add('correct');
+            
+            // Mostrar esquema de desarrollo
+            const developmentDiv = document.getElementById('topic-development');
+            const outlineDiv = document.getElementById('topic-outline');
+            
+            let outline = '';
+            if (topicNumber === 1) {
+                outline = `
+                    <ol style="padding-left: 20px; line-height: 1.8;">
+                        <li><strong>Introducción:</strong> Contexto histórico (s. VI a.C., Grecia)</li>
+                        <li><strong>Del mito al logos:</strong> Cambio fundamental de perspectiva</li>
+                        <li><strong>Características:</strong> Búsqueda del arjé, explicación racional</li>
+                        <li><strong>Representantes principales:</strong>
+                            <ul style="margin-top: 10px;">
+                                <li>Tales de Mileto: El agua como principio</li>
+                                <li>Anaximandro: El ápeiron</li>
+                                <li>Heráclito: El logos y el fuego</li>
+                                <li>Parménides: El ser inmutable</li>
+                            </ul>
+                        </li>
+                        <li><strong>Conclusión:</strong> Legado para la filosofía posterior</li>
+                    </ol>
+                `;
+            } else {
+                outline = `
+                    <ol style="padding-left: 20px; line-height: 1.8;">
+                        <li><strong>Introducción:</strong> Contexto medieval (s. XIII)</li>
+                        <li><strong>Problema fe-razón:</strong> Antecedentes patrísticos</li>
+                        <li><strong>La síntesis tomista:</strong>
+                            <ul style="margin-top: 10px;">
+                                <li>Aristotelismo cristianizado</li>
+                                <li>Las cinco vías para demostrar la existencia de Dios</li>
+                                <li>Teoría del conocimiento</li>
+                            </ul>
+                        </li>
+                        <li><strong>Contexto histórico:</strong> Escolástica, universidades</li>
+                        <li><strong>Influencia posterior:</strong> Neotomismo</li>
+                    </ol>
+                `;
+            }
+            
+            outlineDiv.innerHTML = outline;
+            developmentDiv.style.display = 'block';
+        }
+
+        // ==================== INICIALIZACIÓN ====================
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('📚 Sendas de Acceso a la Filosofía - UNED cargado correctamente');
+            
+            // Verificar que todas las secciones existen
+            const sections = ['blocks', 'exam', 'texts', 'schedule'];
+            sections.forEach(section => {
+                const element = document.getElementById(section + '-section');
+                if (!element) {
+                    console.warn(`⚠️ Sección ${section} no encontrada`);
+                }
+            });
+            
+            // Verificar que todos los bloques existen
+            for (let i = 1; i <= 4; i++) {
+                const block = document.getElementById('block-' + i);
+                if (!block) {
+                    console.warn(`⚠️ Bloque ${i} no encontrado`);
+                }
+            }
+        });
+
+        // ==================== FUNCIONES AUXILIARES ====================
+        
+        // Función para mostrar información adicional
+        function showInfo(message) {
+            alert('ℹ️ ' + message);
+        }
+
+        // Función para validar navegación
+        function validateNavigation() {
+            const activeSection = document.querySelector('.content-area:not([style*="display: none"])');
+            if (activeSection) {
+                console.log('✅ Sección activa:', activeSection.id);
+                return true;
+            } else {
+                console.warn('⚠️ No hay sección activa visible');
+                return false;
+            }
+        }
+
+        // Función de ayuda actualizada
+        function showHelp() {
+            alert(`📚 SENDAS DE ACCESO A LA FILOSOFÍA - PLAN DE EMERGENCIA
+
+🚨 MODO INTENSIVO - 1 MES PARA SEPTIEMBRE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏰ CRONÓMETRO:
+• Cuenta atrás en tiempo real hasta el examen
+• Código de colores según urgencia
+
+📚 PLAN SEMANAL:
+• Semana 1: Filosofía Antigua (Bloque I)
+• Semana 2: Filosofía Medieval (Bloque II)  
+• Semana 3: Filosofía Moderna (Bloque III)
+• Semana 4: Filosofía Contemporánea (Bloque IV)
+• Última semana: SIMULACROS INTENSIVOS
+
+⚡ TÉCNICA 80/20:
+• Enfócate en: Platón, Aristóteles, San Agustín, 
+  Santo Tomás, Descartes, Kant
+• 8-10 horas diarias de estudio
+• 1 simulacro diario en última semana
+
+🎯 FORMATO EXAMEN:
+• 60 minutos sin material
+• Parte A: 1 tema (20 min)
+• Parte B: Comentario texto (35 min)
+• 5 min revisión final
+
+💪 ¡TÚ PUEDES LOGRARLO EN 1 MES!
+Ve a "📅 Calendario" para el plan detallado.`);
+        }
+
+        // Event listeners adicionales
+        window.addEventListener('load', function() {
+            console.log('🚀 Aplicación completamente cargada');
+            
+            // Mostrar mensaje de bienvenida
+            setTimeout(() => {
+                if (confirm('👋 ¡Bienvenido/a a tu Plan de Emergencia para Filosofía UNED!\n\n🚨 Tienes 1 MES para preparar Septiembre\n\n¿Quieres ver el plan de estudio intensivo?')) {
+                    // Ir directamente al calendario
+                    showSection('schedule');
+                    // Cambiar botón activo
+                    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+                    document.querySelectorAll('.nav-btn')[3].classList.add('active'); // Calendario es el 4º botón
+                }
+            }, 1500);
+        });
+
+        // Atajo de teclado para ayuda
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'F1' || (e.ctrlKey && e.key === 'h')) {
+                e.preventDefault();
+                showHelp();
+            }
+        });
+
+    </script>
+</body>
+</html>
 
         function showBlockDetail(blockNum) {
             // Ocultar vista general de bloques
